@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>This is part of the "Home" controller</p>
+<%= yield %>
+<p>This is part of the "Home" controller</p>
+<%= render :partial => "partials/created_partial_passing_data", locals: { passeddata: @passedmessage } %>
+</body>
+</html>
